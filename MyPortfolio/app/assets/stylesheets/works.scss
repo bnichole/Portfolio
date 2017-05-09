@@ -1,0 +1,36 @@
+// Place all the styles related to the Works controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	background-image: url("http://www.thailandtrainingcamp.com/wp-content/uploads/2016/03/Brick-Background.png");
+
+	background-repeat: repeat-y;
+}
+
+
+
+header {
+	color: #90EE90;
+	text-align: center;
+}
+
+.thumbnail-work {
+	border: 1px solid #777;
+	margin: 10%;
+}
+
+.thumbnail-work a>img {
+	width: 100%;
+	height: 250px;
+	display: block;
+	border: 2px solid white;
+}
+
+.caption h3 {
+	color: white;
+}
+
+.caption p {
+	color: #90EE90;
+}
+

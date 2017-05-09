@@ -1,0 +1,46 @@
+// Place all the styles related to the Abouts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	background-image: url("http://www.thailandtrainingcamp.com/wp-content/uploads/2016/03/Brick-Background.png");
+
+	background-repeat: repeat-y;
+}
+
+div.container {
+    width: 100%;
+}
+
+.photo-about {
+	border: 5px solid white;
+	float: left;
+}
+
+.photo-about img {
+	width: 350px;
+	height: 400px;
+	float: left;
+	border: 5px solid black;
+}
+
+
+article {
+	color: white;
+	margin-left: 400px;
+	margin-right: 2%;
+	margin-bottom: 5%;
+	display: inline-block;
+	overflow: hidden;
+}
+
+
+header, footer {
+    padding: 1em;
+    color: #90EE90;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    font-size: 24px;
+    margin: 1em;
+}
+

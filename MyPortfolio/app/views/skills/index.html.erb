@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Skills</title>
+  <link rel="icon" type="image/gif" href="http://www.pd4pic.com/images/alphabet-b-abc-letter-alphabetic-character-1.png">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <link rel="stylesheet" type="text/css" href="skills.scss">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="homes#index">Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="abouts#index">About</a></li>
+        <li><a href="works#index">Work</a></li>
+        <li class="active"><a href="#">Skills<span class="sr-only">(current)</span></a></li> 
+        <li><a href="contacts#index">Contact</a></li>   
+      </ul>         
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<!-- Skill section -->
+<div class = "container">
+<header>
+    <h1>My Skills</h1>
+</header>
+
+<h2>Tech Talent South - Code Immersion Bootcamp</h2>
+<h3>Graduate 2017</h3>
+<br>
+
+<div class="row">
+  <div class="col-sm-4">
+        <div class="photo"><%= image_tag "html_css.jpeg" %></div>
+    </div>
+  
+
+  <div class="col-sm-4">
+        <div class="photo"><%= image_tag "ruby_and_rails.jpg" %></div>
+    </div>
+
+
+  <div class="col-sm-4">
+        <div class="photo"><%= image_tag "bootstrap.jpeg" %></div>
+    </div>
+</div>
+
+<br>
+  
+<div class="row">
+  <div class="col-sm-4">
+        <div class="photo"><%= image_tag "javascript.png" %></div>
+    </div>
+  
+
+  <div class="col-sm-4">
+        <div class="photo"><%= image_tag "sqlite.jpeg" %></div>
+    </div>
+  
+
+  <div class="col-sm-4">
+        <div class="photo"><%= image_tag "api.jpeg" %></div>
+    </div>
+
+</div>
+
+<footer>Quick Learner. Always ready and willing to learn more.</footer>
+</div>
+
+</body>
+</html>
